@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.16)  18 APR 2019 21:38
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.16)  11 MAY 2019 11:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -868,15 +868,15 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(59.74988pt, 478.00812pt, 59.74988pt)
-* v-part:(T,H,B)=(67.60269pt, 676.04005pt, 101.4041pt)
+* h-part:(L,W,R)=(44.81126pt, 507.88533pt, 44.81128pt)
+* v-part:(T,H,B)=(50.70074pt, 718.29497pt, 76.05113pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=478.00812pt
-* \textheight=676.04005pt
-* \oddsidemargin=-12.52011pt
-* \evensidemargin=-12.52011pt
-* \topmargin=-41.6673pt
+* \textwidth=507.88533pt
+* \textheight=718.29497pt
+* \oddsidemargin=-27.45872pt
+* \evensidemargin=-27.45872pt
+* \topmargin=-58.56924pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1042,18 +1042,24 @@ File: logos/wordpress.png Graphic file (type QTm)
  <use  "logos/wordpress.png" >
 File: logos/wordpress.png Graphic file (type QTm)
 
-<use  "logos/wordpress.png" > [1
-
-]
+<use  "logos/wordpress.png" >
 File: logos/django.png Graphic file (type QTm)
  <use  "logos/django.png" >
 
-LaTeX Warning: Hyper reference `aaa' on page 2 undefined on input line 93.
+LaTeX Warning: Hyper reference `aaa' on page 1 undefined on input line 108.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+
+ []
+
+[1
+
+]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 99.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 114.
 File: logos/linuxlogo.jpeg Graphic file (type QTm)
-<use  "logos/linuxlogo.jpeg" >
+ <use  "logos/linuxlogo.jpeg" >
 File: logos/ubuntu.png Graphic file (type QTm)
  <use  "logos/ubuntu.png" >
 File: logos/linuxmint.png Graphic file (type QTm)
@@ -1064,69 +1070,61 @@ File: logos/python.jpeg Graphic file (type QTm)
 File: logos/R.png Graphic file (type QTm)
 
 <use  "logos/R.png" >
-File: logos/java.png Graphic file (type QTm)
- <use  "logos/java.png" >
-File: logos/android.png Graphic file (type QTm)
- <use  "logos/android.png" >
-File: logos/css3.png Graphic file (type QTm)
-
-<use  "logos/css3.png" >
-File: logos/bootstrap.png Graphic file (type QTm)
- <use  "logos/bootstrap.png" >
 File: logos/php.png Graphic file (type QTm)
  <use  "logos/php.png" >
 File: logos/mysql.png Graphic file (type QTm)
-
-<use  "logos/mysql.png" >
+ <use  "logos/mysql.png" >
 File: logos/wordpress.png Graphic file (type QTm)
- <use  "logos/wordpress.png" >
-File: logos/laravel.png Graphic file (type QTm)
 
-<use  "logos/laravel.png" >
+<use  "logos/wordpress.png" >
+File: logos/laravel.png Graphic file (type QTm)
+ <use  "logos/laravel.png" >
 File: logos/php.png Graphic file (type QTm)
- <use  "logos/php.png" >
-File: logos/R.png Graphic file (type QTm)
- <use  "logos/R.png" >
+
+<use  "logos/php.png" >
+File: logos/css3.png Graphic file (type QTm)
+ <use  "logos/css3.png" >
+File: logos/bootstrap.png Graphic file (type QTm)
+ <use  "logos/bootstrap.png" >
 File: logos/R.png Graphic file (type QTm)
 
 <use  "logos/R.png" >
 File: logos/R.png Graphic file (type QTm)
  <use  "logos/R.png" >
+File: logos/R.png Graphic file (type QTm)
+ <use  "logos/R.png" >
 File: logos/ggplot.png Graphic file (type QTm)
- <use  "logos/ggplot.png" >
-File: logos/git.png Graphic file (type QTm)
 
-<use  "logos/git.png" >
+<use  "logos/ggplot.png" >
 File: logos/tablue.png Graphic file (type QTm)
  <use  "logos/tablue.png" >
-Overfull \hbox (7.50275pt too wide) in paragraph at lines 115--116
+File: logos/git.png Graphic file (type QTm)
+ <use  "logos/git.png" >
+Overfull \hbox (7.50275pt too wide) in paragraph at lines 128--130
 []\T1/lmss/m/n/10.95 . [] 
  []
 
 File: logos/SO.jpg Graphic file (type QTm)
 <use  "logos/SO.jpg" >
-File: logos/SO.jpg Graphic file (type QTm)
- <use  "logos/SO.jpg" > [2]
 File: logos/django.png Graphic file (type QTm)
- <use  "logos/django.png" >
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+ <use  "logos/django.png" > [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (./saleh_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 169.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 169.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 182.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27487 strings out of 495570
- 510240 string characters out of 6187021
- 585465 words of memory out of 5000000
+ 27485 strings out of 495570
+ 510227 string characters out of 6187021
+ 585472 words of memory out of 5000000
  30373 multiletter control sequences out of 15000+600000
- 74902 words of font info for 59 fonts, out of 8000000 for 9000
+ 75221 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  69i,15n,60p,10364b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on saleh_resume.pdf (3 pages).
+Output written on saleh_resume.pdf (2 pages).
