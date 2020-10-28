@@ -38,7 +38,7 @@
 \social[twitter]{SirSalh}                             % optional, remove / comment the line if not wanted
 \social[github]{SirSaleh}                              % optional, remove / comment the line if not wanted
 \newcommand*\skypesocialsymbol{{\FA\symbol{"F17E}}}
-\social[stackoverflow][stackoverflow.com/users/2454690/sirsaleh]{sirsaleh on Stack Overflow}
+\social[stackoverflow][stackoverflow.com/users/2454690/sirsaleh]{\setlogo{logos/so.png} sirsaleh}
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 %\photo[82pt][0.4pt]{picture.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{Why do we fall bruce? \\ So we can learn to pick ourselves up\hspace{5cm} \sim Thomas Wayne, Batman Begins}                                
@@ -56,6 +56,7 @@
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
+
 \DeclareRobustCommand{\setlogo}[1]{%
 	\begingroup\normalfont
 	\includegraphics[height=\fontcharht\font`\B+5pt]{#1}%
@@ -67,61 +68,105 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{summary}
-\cvitem{whoami}{I am Saleh. A full-stack web developer and statistics enthusiast. since childhood, I've been programming for fun, and now I'm developing web for almost 6 years. my main fields of working were entertainment and transportation industries, using Django, PHP, R, MySQL, PostgreSQL and etc.  Creating Interesting and useful systems is what connects all my interests and experiences.}
+\section{Summary}
+\cvitem{}{I am Saleh. A full-stack web developer and statistics enthusiast. since childhood, I've been programming for fun, and now I'm developing web for almost 6 years. my main fields of working were entertainment and transportation industries, using Django, PHP, R, MySQL, PostgreSQL and etc.  Creating Interesting and useful systems is what connects all my interests and experiences.}
 
 \section{Education}
 \cventry{2015-2018}{M.Sc.}{Amirkabir University of Technology}{Tehran}{\textit{Mathematical Statistics}}{}
-\cventry{2010--2014}{B.Sc.}{Allameh Tababaei  University}{Tehran}{\textit{Applied Statistics}}{}  % arguments 3 to 6 can be left empty
-\subsection{Master thesis}
+
+\subsection{MSc. Thesis}
 \cvitem{title}{\emph{\textbf{Simultaneous Tests For High Dimensional Datasets}}}
-\cvitem{supervisors}{Dr. Omid Naghshineh, Dr. Adel Mohammadpour (adel@aut.ac.ir), Dr. Mina Aminghafari}
-\cvitem{Rapporteur}{Dr. E. Khorram and Dr. Ahmad Parsian}
-\cvitem{description}{Nowadays emergence of new technologies like Mircroarray has been leaded to creating large scale datasets. Datasets which number of variables are a hundred times as their sample sizes. As the usual methods like $T^2$-Hotelling for simultaneous comparison of means in such datasets, there exists a need for new methods. In first, this thesis, different methods for comparison of mean vector will review. Then a new applicable method in Behrens-Fisher setting, (assumption of non-equal variance in testing means of two populations) and invariant under shift and scalar transformations introduced. This method implemented using \texttt{C++} in \texttt{R} and the performance of the implementation has been investigated.}
+\cvitem{description}{Nowadays emergence of new technologies like DNA Mircro-array has been leaded to creating large scale data, which needs new method to analysis. In my Thesis I investigated a model that works on this settings.}
+%\cvitem{supervisors}{Dr. Omid Naghshineh, Dr. Adel Mohammadpour (adel@aut.ac.ir), Dr. Mina Aminghafari}
+%\cvitem{Rapporteur}{Dr. E. Khorram and Dr. Ahmad Parsian}
+%\cvitem{description}{Nowadays emergence of new technologies like Mircroarray has been leaded to creating large scale datasets. Datasets which number of variables are a hundred times as their sample sizes. As the usual methods like $T^2$-Hotelling for simultaneous comparison of means in such datasets, there exists a need for new methods. In first, this thesis, different methods for comparison of mean vector will review. Then a new applicable method in Behrens-Fisher setting, (assumption of non-equal variance in testing means of two populations) and invariant under shift and scalar transformations introduced. This method implemented using \texttt{C++} in \texttt{R} and the performance of the implementation has been investigated.}
+
+\cventry{2010--2014}{B.Sc.}{Allameh Tababaei  University}{Tehran}{\textit{Applied Statistics}}{}  % arguments 3 to 6 can be left empty
+
 \subsection{BSc. Project}
 \cvitem{title}{\textbf{Investigation on Mobile-Bank Service Based on SERVQUAL Model}}
+
 \section{Experience}
-\cventry{Sep 2015- Nov 2016}{Website Management and \texttt{wordpress} Developer}{Allmaeh Tabatabaei University}{Tehran}{}{Working on atue.ir website and shop and bank gateway.\newline{} used Technologies: \texttt{Wordpress}, \texttt{MySQL}, \texttt{Woocommerce}}
-\cventry{Just a Project}{\texttt{wordpress} Developer}{$\mathrm{ATNA}$ (Allameh Tabatabei News Agancy)}{Tehran}{}{Fix some major bugs in website, including problems in front-end and implementation of home page slider}
 
-\cventry{May 2018- April 2020}{Full-stack \texttt{django} Developer}{Boundar Souban Samaneh}{Tehran}{}{Irasography is a website for photographers and photography enthusiast people. This website provides services for photographers to show their art, and for companies to order their photography needs. \hyperref[aaa]{irasography.com}.\\
-	I was responsible for implementing API endpoints and front-end UI. Used technologies were \texttt{django}, \texttt{postgresql}, \texttt{bootstrap}, \texttt{nginx}, etc.
+% ================== DNBuy
+\cventry{September 2020- present}{Back-end developer}{DNBuy Co.}{Remote Canada}{}{\textit{Dnbuy is a  international domain and hosting provider website based in Canada}. My task is to participating to new dnbuy service implementation. \\
+	Technologies: \texttt{Django}, \texttt{Nginx}, \texttt{MySQL}, \texttt{jquery}, etc.
 }
 
-\cventry{September 2019- present}{part-time full-stack developer}{Abrbar Co.}{Tehran}{}{\textit{Abrbar is a transportation project in order to manage shipment of cargoes. Used by truck drivers and cargo companies}. My task is to Implementing restful API which currently uses in both drivers and customers android app and Abrbar dashboard\\
-	used technologies: \texttt{Django}, \texttt{postgresql}, \texttt{Nginx}, \texttt{reactjs}, \texttt{PWA}, \texttt{jquery}, etc.
+% ================== Abrbar
+\cventry{September 2019- present}{Full-stack developer}{Abrbar Co.}{Tehran}{}{\textit{Abrbar is a project on transportation.} My task is to Implementing restful API which currently uses in both drivers and customers android app and Abrbar dashboard, contains all functionalities on ordering, reserving cargo for drivers, financial management and etc.\\
+	Technologies: \texttt{Django}, \texttt{DRF}, \texttt{postgresql}, \texttt{Nginx}, \texttt{reactjs}, \texttt{PWA}, \texttt{jquery}, etc.
 }
 
-\cventry{September 2020- present}{Part-time Back-end developer}{DNBuy Co.}{Remote Canada}{}{\textit{Dnbuy is a  international domain and hosting provider website based in Canada}. My task is to participating to new dnbuy service implementation. \\
-	used technologies: \texttt{Django}, \texttt{Nginx}, \texttt{MySQL}, \texttt{jquery}, etc.
+% ================== Souban
+\cventry{May 2018- April 2020}{Full-stack \texttt{django} Developer}{Boundar Souban Samaneh}{Tehran}{}{
+	I was responsible for implementing API endpoints and front-end UI for \hyperref[irasography.com]{irasography}. I've done full implementation of all features for photographer users and admins. Technologies: \texttt{django}, \texttt{DRF}, \texttt{postgresql}, \texttt{bootstrap}, \texttt{nginx}, etc.
 }
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-%\subsection{Miscellaneous}
-%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+% ================== ATNA
+\cventry{Just a Project}{\texttt{Wordpress} Developer}{$\mathrm{ATNA}$ (Allameh Tabatabei News Agancy)}{Tehran}{}{website maintenance, including bugs in front-end and implementation of home page slider.\\
+used technologies: \texttt{wordpress}, and \texttt{jquery}, \texttt{MySQL}
+}
+
+% ================== ATUE
+\cventry{Sep 2015- Nov 2016}{\texttt{Wordpress} Developer}{Allmaeh Tabatabaei University}{Tehran}{}{Development of \texttt{atue.ir} website and shop and bank gateway, and implementing new features like \texttt{woostat} plug-in. \newline{} Technologies: \texttt{Wordpress}, \texttt{MySQL}, \texttt{Woocommerce}}
+
 
 \section{Languages}
 \cvitemwithcomment{English}{Advanced}{}
 \cvitemwithcomment{Arabic}{Beginner}{}
 \cvitemwithcomment{Japaness}{Beginner}{}
 
-\section{Computer and programming skills}
+\section{Development and Programming skills}
 \cvitem{Linux}{6 Years User of \texttt{Linux OS \setlogo{logos/linuxlogo.jpeg}}, \setlogo{logos/ubuntu.png}, \texttt{\setlogo{logos/linuxmint.png}}}
-\cvitem{Computer Programming}{Programming in languages \texttt{python}, \texttt{C}, \texttt{R}
-%\texttt{\setlogo{logos/java.png}} for \setlogo{logos/android.png}
 
-\cvitem{Web Development}{Familiar to  \texttt{%\setlogo{logos/django.png}
-		django} framework (for instance \texttt{django dongy app} available in github and contributing in \texttt{django allauth}, developing \texttt{djang-simple-chart}, \texttt{irsasography} photographers platform, and abrbar project). Prgramming in  \texttt{PHP}, \texttt{MySQL}.  and \texttt{wordpress} development. currently sometimes learning \texttt{GO} language. Familiar to \texttt{HTML}, \texttt{CSS3}. Familiar to \texttt{Bootstrap} \texttt{CSS} framwork.}
-	
-\cvitem{Serverside Deployment}{familiar to Deploying django app using \texttt{nginx} and \texttt{uwsgi}}
+% BACN END
+\cvitem{Backend}{
+	\texttt{django} framework \setlogo{stars/5.png},
+	\texttt{PHP} \setlogo{stars/3.png},
+}
 
-\cvitem{Statistical Programming}{\texttt{R}, more than 4 years experience on \texttt{R} programming for statistical purposes. Familiar with \texttt{R} base functions and packages like \texttt{ggplot2} and \texttt{FactoMineR}, Familiar to \texttt{SPSS}, \texttt{SAS}, and \texttt{Tableau}}
+% FRONT END
+\cvitem{Front-end}{
+	\begin{itemize}
+		\item
+			\textbf{Styling}: \texttt{HTML} and \texttt{CSS} \setlogo{stars/4.png}, \texttt{Bootstrap} framework \setlogo{stars/5.png}
+		\item
+			\textbf{Programming}: pure \texttt{javascript} \setlogo{stars/4.png}, \texttt{jquery} \setlogo{stars/5.png}, \texttt{reactjs} \setlogo{stars/1.png},
+	\end{itemize}
+}
 
-\cvitem{VCS}{Familiar to \texttt{git}, and \texttt{gitflow}}
+\cvitem{Database}{
+	\begin{itemize}
+		\item 
+			\texttt{MySQL} \setlogo{stars/5.png}, \texttt{PostgreSQL} \setlogo{stars/4.png}
+	\end{itemize}
+}
+
+\cvitem{Statistical}{
+	\begin{itemize}
+		\item
+			\textbf{Programming}: \texttt{R} \setlogo{stars/5.png}, \texttt{matlab} \setlogo{stars/3.png}
+		\item \textbf{software}:  \texttt{SPSS} \setlogo{stars/3.png}, \texttt{SAS} \setlogo{stars/3.png}, \texttt{Tableaue} \setlogo{stars/2.png}
+	\end{itemize}
+}
+
+
+\cvitem{Other Technologies}{
+	\begin{itemize}
+		\item
+			\textbf{Languages}: \texttt{python} \setlogo{stars/4.png}, \texttt{C} \setlogo{stars/3.png}, \texttt{Go}  \setlogo{stars/1.png}, \texttt{Bash} Scripting \texttt{stars/3.png}
+		\item
+			\textbf{Webserver tools}: \texttt{Nginx} configuration \setlogo{stars/4.png}
+		\item
+			\textbf{VCS}: \texttt{git} \setlogo{stars/4.png}, \texttt{gitflow} \setlogo{stars/3.png}
+	\end{itemize}
+}
 
 \section{Interests}
-\cvitem{Routine }{Interested in learning New topics in technologies and human languages. Reading \setlogo{logos/SO.jpg} and other Stackexchange sites and try to answer the questions.}
+\cvitem{}{Interested in learning New topics in technologies and human languages. Reading \setlogo{logos/SO.jpg} and other Stackexchange sites and try to answer the questions.}
 
-\cvitem{job interests}{Web Development, Statistical Research}
+% \cvitem{job interests}{Web Development, Statistical Research}
 
 \section{Courses}
 \cvlistitem{AUT and Paris 5 university courses on applied statistics (Clustering, Random Forests and Extreme Value Theory)}
