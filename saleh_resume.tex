@@ -46,7 +46,7 @@
 
 % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
 %   to show numerical labels in the bibliography (default is to show no labels)
-\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\c{enumiv}}}\makeatother
 %   to redefine the bibliography heading string ("Publications")
 %\renewcommand{\refname}{Articles}
 
@@ -88,19 +88,47 @@
 
 \section{Experience}
 
+% ================== TradeForward
+
+\cventry{October 2021 -  now}{Full-Stack developer}{\texttt{Trade-forward}}{Shinbob Co. Remote Canada}{}{Trade-forward is a B2B shop, which users can buy their stuff, and purchase other users' useful stuff. I am implementing the schema, restful API and etc.\\
+	Technologies: \texttt{Django}, \texttt{DRF}, \texttt{nginx}, \texttt{SCSS}, \texttt{postgresql}, \texttt{jquery} and etc.
+}
+
+% ================== Lumos
+\cventry{Auguest 2021 -  now}{Full-Stack developer}{\texttt{Lumos} v1}{Shinbob Co. Remote Canada}{}{Lumos is a PWA (progressive web application) which easily using to control the mapping systems (like \texttt{madMapper} or \texttt{Resolume}).  I implemented the Database schema, api, react components and etc. \\
+	Technologies: \texttt{raspberry pie}, \texttt{Django}, \texttt{DRF}, \texttt{react-js}, \texttt{nginx}, \texttt{node-osc}, \texttt{postgresql} and etc.
+}
+
+% ================== Lightshifters v2
+\cventry{April 2021- July 2021}{Full-Stack developer}{\texttt{Lightshifter} v2}{Shinbob sole. Remote Canada}{}{\texttt{Lightshifter} v2 is a video mapping web-based system, which can connect to mapping systems (like \texttt{madMapper} or \texttt{Resolume}) and controls its fixtures in a user-friendly space. It has been done after v1. This system also is able to install on machines with AMD architecture. In this version some features like ultra-sonic handler, schedulers, and etc. added to the system. We also implemented multi-link supporting for \texttt{lightshifter} \\
+	Technologies: \texttt{raspberry pie}, \texttt{Django}, \texttt{DRF}, \texttt{crontab}, \texttt{node-js}, \texttt{express-js}, \texttt{postgresql}, \texttt{jquery}, \texttt{sequelize}, \texttt{nginx} and etc.
+}
+
+% ================== Encription firmware GTR
+\cventry{April 2021}{Programmer}{GTR \texttt{encryption firmware}}{Shinbob Co. Remote Canada}{}{
+	I checked the encryption system of the GTR corporation and fixed it.
+	\\
+	Technologie(s): \texttt{python}
+}
+
+% ================== Lightshifters v1
+\cventry{Januery 2021- March 2021}{Full-Stack developer}{\texttt{Lightshifter} v1}{Shinbob sole. Remote Canada}{}{\texttt{Lightshifter} v1 is a video mapping web-based system, which can connect to mapping systems (like \texttt{madMapper} or \texttt{Resolume}) and controls its fixtures in a user-friendly space. I implemented the \texttt{lightshifter} from scratch. this system is able to install on machines with ARM architecture. It can control the mapping systems using some handlers.\\
+	Technologies: \texttt{raspberry pie}, \texttt{node-js}, \texttt{express-js}, \texttt{postgresql}, \texttt{jquery}, \texttt{sequelize}, \texttt{nginx} and etc.
+}
+
 % ================== DNBuy
-\cventry{September 2020- December 2020}{Back-end developer}{DNBuy Co.}{Remote Canada}{}{\textit{Dnbuy is a  international domain and hosting provider website based in Canada}. My task is to participating to new dnbuy service implementation. \\
-	Technologies: \texttt{Django}, \texttt{Nginx}, \texttt{MySQL}, \texttt{jquery}, etc.
+\cventry{September 2020- December 2020}{Back-end developer}{Shinbob sole}{Remote Canada}{}{\textit{Dnbuy is an international domain and hosting provider website based in Canada}. My task was programming internal `API` and synchronizing Dnbuy with Enom using Enom api. \\
+	Technologies: \texttt{Django}, \texttt{Python}, \texttt{Nginx}, \texttt{MySQL}, \texttt{jquery}, and etc.
 }
 
 % ================== Abrbar
 \cventry{September 2019- present}{Full-stack developer}{Abrbar Co.}{Tehran}{}{\textit{Abrbar is a project on transportation.} My task is to Implementing restful API which currently uses in both drivers and customers android app and Abrbar dashboard, contains all functionalities on ordering, reserving cargo for drivers, financial management and etc.\\
-	Technologies: \texttt{Django}, \texttt{DRF}, \texttt{postgresql}, \texttt{Nginx}, \texttt{reactjs}, \texttt{PWA}, \texttt{jquery}, etc.
+	Technologies: \texttt{Django}, \texttt{DRF}, \texttt{postgresql}, \texttt{Nginx}, \texttt{reactjs}, \texttt{PWA}, \texttt{jquery}, and etc.
 }
 
 % ================== Souban
 \cventry{May 2018- Jun 2020}{Full-stack \texttt{django} Developer}{Boundar Souban Samaneh}{Tehran}{}{
-	I was responsible for implementing API endpoints and front-end UI for \hyperref[irasography.com]{irasography}. I've done full implementation of all features for photographer users and admins. Technologies: \texttt{django}, \texttt{DRF}, \texttt{postgresql}, \texttt{bootstrap}, \texttt{nginx}, etc.
+	I was responsible for implementing API endpoints and front-end UI for \hyperref[irasography.com]{irasography}. I've done full implementation of all features for photographer users and admins. Technologies: \texttt{django}, \texttt{DRF}, \texttt{postgresql}, \texttt{bootstrap}, \texttt{nginx}, and etc.
 }
 
 % ================== ATNA
@@ -114,8 +142,10 @@ used technologies: \texttt{wordpress}, and \texttt{jquery}, \texttt{MySQL}
 
 \section{Languages}
 \cvitemwithcomment{English}{Advanced}{}
+\cvitemwithcomment{Turkish}{Beginner}{}
 \cvitemwithcomment{Arabic}{Beginner}{}
-\cvitemwithcomment{Japaness}{Beginner}{}
+\cvitemwithcomment{Japaneses}{Beginner}{}
+
 
 \section{Development and Programming skills}
 \cvitem{Linux}{6 Years User of \texttt{Linux OS \setlogo{logos/linuxlogo.jpeg}}, \setlogo{logos/ubuntu.png}, \texttt{\setlogo{logos/linuxmint.png}}}
@@ -132,7 +162,7 @@ used technologies: \texttt{wordpress}, and \texttt{jquery}, \texttt{MySQL}
 		\item
 			\textbf{Styling}: \texttt{HTML} and \texttt{CSS} \setlogo{stars/4.png}, \texttt{Bootstrap} framework \setlogo{stars/5.png}
 		\item
-			\textbf{Programming}: pure \texttt{javascript} \setlogo{stars/4.png}, \texttt{jquery} \setlogo{stars/5.png}, \texttt{reactjs} \setlogo{stars/1.png},
+			\textbf{Programming}: pure \texttt{javascript} \setlogo{stars/4.png}, \texttt{jquery} \setlogo{stars/5.png}, \texttt{reactjs} \setlogo{stars/3.png},
 	\end{itemize}
 }
 
